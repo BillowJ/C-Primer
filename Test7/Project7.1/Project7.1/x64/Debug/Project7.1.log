@@ -1,0 +1,19 @@
+﻿  pch.cpp
+  Project7.1.cpp
+  Sale.cpp
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(7): error C2065: “Sales_data”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(7): error C2146: 语法错误: 缺少“;”(在标识符“total”的前面)
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(7): error C2065: “total”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(8): error C2065: “total”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(9): error C2065: “Sales_data”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(9): error C2146: 语法错误: 缺少“;”(在标识符“trans”的前面)
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(9): error C2065: “trans”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(10): error C2065: “trans”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(11): error C2065: “trans”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(11): error C2065: “total”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(13): error C2065: “total”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(14): error C2065: “total”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(15): error C2065: “total”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(15): error C2065: “trans”: 未声明的标识符
+D:\Dir_C++\Test7\Project7.1\Project7.1\Sale.cpp(18): error C2065: “total”: 未声明的标识符
+  正在生成代码...
