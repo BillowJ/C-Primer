@@ -14,5 +14,24 @@ int main()
 	int* p1 = new (nothrow) int;
 	delete p1;//p1必须指向一个动态分配的对象or空指针
 
+	//share_ptr 和 new 的结合使用
+	shared_ptr<int> p2(new int(1024));
+	
+	//12.10
+	std::shared_ptr<int> p(new int(42));
+    process(std::shared_ptr<int>(p));
+
+    /**
+      * codes below shows how the reference count change.
+      */
+    /*std::cout << p.use_count() << "\n";
+    auto q = p;
+    std::cout << p.use_count() << "\n";
+    std::cout << "the int p now points to is:" << *p << "\n";
+    return 0;
+	*/
+	auto x = new int();
+	
+	process(shared_ptr<int>(x));
 }
 

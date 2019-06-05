@@ -57,3 +57,8 @@ void StrBlob::pop_back() {
 	check(0, "pop_back on empty StrBlob.");
 	data->pop_back();
 }
+
+void process(std::shared_ptr<int> ptr)
+{
+	std::cout << "inside the process function:" << ptr.use_count() << "\n";
+}
