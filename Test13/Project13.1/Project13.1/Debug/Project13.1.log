@@ -1,0 +1,3 @@
+﻿  Project13.1.cpp
+D:\Dir_C++\Test13\Project13.1\Project13.1\Project13.1.cpp(43,1): warning C4521:  “X”: 指定了多个复制构造函数
+  Project13.1.vcxproj -> D:\Dir_C++\Test13\Project13.1\Debug\Project13.1.exe
